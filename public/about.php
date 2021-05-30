@@ -21,7 +21,7 @@
 <body>
 	<nav class="navbar navbar-expand-lg">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#">
+			<a class="navbar-brand" href="home.php">
 				<img src="images/temubuku logo.png">
 			</a>
 			<button class="navbar-dark navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -41,6 +41,9 @@
 						<li class="nav-item">
 							<a class="nav-link active" aria-current="page" href="index.php">Beranda</a>
 						</li>
+                        <li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="advance.php">AdvanceSearch</a>
+						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="about.php">About</a>
 						</li>
@@ -55,27 +58,32 @@
 		<div class="col-md-1"></div>
 		<div class="col-md-6">
 			<h2>SEKILAS TENTANG WEBSITE</h2> 
-			<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
+			<div class="row text-center">
+				<div class="col-sm-6">
+					<img src="images/meira.png" class="img-fluid" alt="">
+				</div>
+				<div class="col-sm-6">
+					<img src="images/anne.png" class="img-fluid" alt="">
+				</div>
+			</div>
+			<p>Website Pencarian berbasis Semantik yang dibuat oleh :</p>
+			<p>Meira Dwiana Anjani - 140810180015</p>
+			<p>Anne Audistya Fernanda - 140810180059</p>
+			<br>
+			<h2>CONTACT</h2> 
+			<p><img src="images/phone.png"> 021 - 923827842 </p>
+			<p><img src="images/email.png"> team@semweb.com </p>
+			<p><img src="images/place.png">Jl. Soekarno Hatta No. 13 Bandung</p>
+			<br><br><br>
 		</div>
 		<div class="col-md-5"></div>
 	</div>
 	<br>
-	<div class="row about">
-		<div class="col-md-1"></div>
-		<div class="col-md-6">
-			<h2>CONTACT</h2> 
-			<p><img src="images/phone.png"> 021 - 923827842 </p>
-			<p><img src="images/email.png"> team@dierja.com </p>
-			<p><img src="images/place.png">Jl. Soekarno Hatta No. 13 Bandung</p>
-		</div>
-		<div class="col-md-5"></div>
-	</div>
-	</div>
-	<br><br>
-	<footer class="text-center">
-		<br>
-		<p>Copyright 2021  • All Right Reserved • TemuBuku</p>
-		<br>
-	</footer>
+</div>
+	<footer class='text-center'>
+      <br>
+      <p>Copyright 2021  • All Right Reserved • TemuBuku</p>
+      <br>
+</footer>
 </body>
 </html>

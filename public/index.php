@@ -36,6 +36,9 @@
 						<li class="nav-item">
 							<a class="nav-link active" aria-current="page" href="index.php">Beranda</a>
 						</li>
+            <li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="advance.php">AdvanceSearch</a>
+						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="about.php">About</a>
 						</li>
@@ -70,17 +73,21 @@
 							$endpoint = $fuseki_server . "/" . $fuseki_sparql_db . "/query";	
 							$sc = new SparqlClient();
 							$sc->setEndpointRead($endpoint);
-							$q = "PREFIX data:<http://example.com/>
+							$q = "PREFIX d:<http://example.com/data#>
+              PREFIX b:<http://example.com/buku#>
               PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
               SELECT ?id ?judul ?penulis ?penerbit ?kategori ?urlFoto
               WHERE{
-                ?sub rdf:type data:buku.
-                ?sub data:id ?id.
-                ?sub data:judul ?judul.
-                ?sub data:penulis ?penulis.
-                ?sub data:penerbit ?penerbit.
-                ?sub data:kategori ?kategori.
-                ?sub data:urlFoto ?urlFoto.
+                  ?d b:id ?id;
+                     b:judul ?judul;
+                     b:penulis ?penulis;
+                     b:hasPenerbit ?namapenerbit;
+                     b:hasKategori ?namakategori;
+                     b:hasTahunTerbit ?namatahun_terbit;
+        				     b:urlFoto ?urlFoto.
+                  ?namapenerbit b:Penerbit ?penerbit. 
+                  ?namakategori b:kategori ?kategori.  
+                  ?namatahun_terbit b:tahunterbit ?tahun_terbit.
                 }
               ";
 							$rows = $sc->query($q, 'rows');
@@ -108,10 +115,13 @@
                 </div>
             </div>";};
 ?>
-   <footer class="text-center">
-     <br>
+</div>
+</div>
+<br>
+<footer class='text-center'>
+      <br>
       <p>Copyright 2021  • All Right Reserved • TemuBuku</p>
       <br>
-    </footer>
+</footer>
 </body>
 </html>
