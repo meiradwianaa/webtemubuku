@@ -70,7 +70,7 @@
                 WHERE{
                     ?d b:id '$id';
                        b:judul ?judul;
-                       b:penulis ?penulis;
+                       b:hasPenulis ?namapenulis;
                        b:hasPenerbit ?namapenerbit;
                        b:hasKategori ?namakategori;
                        b:hasTahunTerbit ?namatahun_terbit;
@@ -80,6 +80,7 @@
                        b:isbn ?isbn;
                        b:urlFoto ?urlFoto.
 
+                    ?namapenulis b:penulis ?penulis.
                     ?namapenerbit b:Penerbit ?penerbit.
                     ?namakategori b:kategori ?kategori. 
                     ?namatahun_terbit b:tahunterbit ?tahun_terbit.
@@ -162,14 +163,15 @@
                 WHERE{
                     ?d b:id ?id;
                        b:judul ?judul;
-                       b:penulis ?penulis;
+                       b:hasPenulis ?namapenulis;
                        b:hasPenerbit ?namapenerbit;
                        b:hasKategori ?namakategori;
                        b:urlFoto ?urlFoto.
 
+                    ?namapenulis b:penulis ?penulis.
                     ?namapenerbit b:Penerbit ?penerbit.
                     ?namakategori b:kategori '{$row['kategori']}'. 
-                  }
+                  } ORDER BY RAND() LIMIT 8
                 ";
               $rows = $sc->query($q1, 'rows');
               $err = $sc->getErrors();

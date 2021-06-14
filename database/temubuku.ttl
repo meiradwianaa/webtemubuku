@@ -8,7 +8,6 @@ d:1  rdf:type           d:buku ;
         b:id            "1" ;
         b:isbn          "978-602-6744-22-7" ;
         b:judul         "60 Jam Pintar Baca Tanpa Di Eja" ;
-        b:penulis       "Yuliana Yusuf" ;
         b:stok          "1249" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/110675_f.jpg" .
 
@@ -18,7 +17,6 @@ d:2  rdf:type           d:buku ;
         b:id            "2" ;
         b:isbn          "978-602-525-098-9" ;
         b:judul         "Permulaan Belajar Berhitung Untuk TK 4-6 Tahun" ;
-        b:penulis       "Aida Hanifah" ;
         b:stok          "2" ;
         b:urlFoto       "https://cdn.gramedia.com/uploads/items/9786025250989_Permulaan-Belajar-Berhitung-Untuk-TK-4-6-Tahun__w600_hauto.jpg" .
 
@@ -28,7 +26,6 @@ d:3  rdf:type           d:buku ;
         b:id            "3" ;
         b:isbn          "978-602-5585-19-3" ;
         b:judul         "The Stories of Nabi & Rasul Allah Vol.02" ;
-        b:penulis       "Muhammad Ihsan" ;
         b:stok          "16" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/106310_f.jpg" .
 
@@ -38,7 +35,6 @@ d:4  rdf:type           d:buku ;
         b:id            "4" ;
         b:isbn          "978-602-6991-77-5" ;
         b:judul         "BACAIN - Belajar Membaca Sambil Bermain" ;
-        b:penulis       "Lutfiya Cahyani" ;
         b:stok          "17" ;
         b:urlFoto       "https://cf.shopee.co.id/file/b1eeb1022093a05c9ad8369f41bf60a4_tn" .
 
@@ -48,7 +44,6 @@ d:5  rdf:type           d:buku ;
         b:id            "5" ;
         b:isbn          "978-602-615-226-8" ;
         b:judul         "MEWARNAI PUTRI CANTIK SAMBIL BELAJAR" ;
-        b:penulis       "Aida Hanifah" ;
         b:stok          "1" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/107615_f.jpg" .
 
@@ -58,7 +53,6 @@ d:6  rdf:type           d:buku ;
         b:id            "6" ;
         b:isbn          "978-623-7524-19-9" ;
         b:judul         "LATIHAN MENULIS TEGAK BERSAMBUNG – BONUS BUKU DOA" ;
-        b:penulis       "Aida Hanifah" ;
         b:stok          "465" ;
         b:urlFoto       "https://id-test-11.slatic.net/p/7496371b44c9a4f0f10bd23b2c5672f1.jpg_720x720q80.jpg_.webp" .
 
@@ -68,7 +62,6 @@ d:7  rdf:type           d:buku ;
         b:id            "7" ;
         b:isbn          "tidak ada d" ;
         b:judul         "Top Sukses Psikotes Gambar & PnP" ;
-        b:penulis       "Enha Punjabi" ;
         b:stok          "5" ;
         b:urlFoto       "http://genta-smart.com/gambar/buku/5a77cf22734db.png" .
 
@@ -78,7 +71,6 @@ d:8  rdf:type           d:buku ;
         b:id            "8" ;
         b:isbn          "978-602-0643-26-7" ;
         b:judul         "MOMMYCLOPEDIA 78 RESEP MPASI" ;
-        b:penulis       "dr. Meta Hanindita, Sp.A" ;
         b:stok          "22" ;
         b:urlFoto       "https://gpu.id/data-gpu/images/img-book/93186/620214007.jpg" .
 
@@ -88,7 +80,6 @@ d:9  rdf:type           d:buku ;
         b:id            "9" ;
         b:isbn          "978-602-6359-10-0" ;
         b:judul         "Mama Papa Wajib Tahu Anak Sehat, Cerdas & Bahagia" ;
-        b:penulis       "Ayu Bulan Febry K D, SKM, MM; Yuni Hermawaty, M.Psi, Psikolog; dr. Zulfito Marendra" ;
         b:stok          "6" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/99530_f.jpg" .
 
@@ -98,7 +89,6 @@ d:10  rdf:type          d:buku ;
         b:id            "10" ;
         b:isbn          "978-602-1387-50-4" ;
         b:judul         "BUKU BELAJAR MASAK: 30 SAJIAN MIE KREATIF" ;
-        b:penulis       "Emy & Umar" ;
         b:stok          "10" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/84437_f.jpg" .
 
@@ -108,7 +98,6 @@ d:11  rdf:type          d:buku ;
         b:id            "11" ;
         b:isbn          "tidak ada d" ;
         b:judul         "BUKU BELAJAR MASAK: 60 RECIPES HOME MADE GORENGAN BERLAPIS" ;
-        b:penulis       "Astuti Emy" ;
         b:stok          "8" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/86318_f.jpg" .
 
@@ -118,7 +107,6 @@ d:12  rdf:type          d:buku ;
         b:id            "12" ;
         b:isbn          "978-602-6744-09-8" ;
         b:judul         "JUZ 'AMMA TAJWID BERWARNA" ;
-        b:penulis       "Joko Waluyo, SPd." ;
         b:stok          "15" ;
         b:urlFoto       "https://cf.shopee.co.id/file/e0380b41e7bcb18a6614f9b4dad1caf4" .
 
@@ -128,7 +116,6 @@ d:13  rdf:type          d:buku ;
         b:id            "13" ;
         b:isbn          "978-602-5585-02-9" ;
         b:judul         "Jangan Jadi Akhwat Nyebelin" ;
-        b:penulis       "Vivi Amalia Anggraeni" ;
         b:stok          "2" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/107613_f.jpg" .
 
@@ -138,7 +125,6 @@ d:14  rdf:type          d:buku ;
         b:id            "14" ;
         b:isbn          "978-602-6359-36-0" ;
         b:judul         "Minhajul Muslimah" ;
-        b:penulis       "Muhammad Syafii Masykur" ;
         b:stok          "10" ;
         b:urlFoto       "https://images.tokopedia.net/img/cache/700/product-1/2020/2/27/537573/537573_3de4c649-fca3-47a6-8450-e8a7e9619b2a_800_800" .
 
@@ -148,7 +134,6 @@ d:15  rdf:type          d:buku ;
         b:id            "15" ;
         b:isbn          "978-602-5585-89-0" ;
         b:judul         "BE QURAN LOVERS - MEMBANGUN KELUARGA QUR'ANI" ;
-        b:penulis       "Ririn Astutiningrum, Ratnani Latifah" ;
         b:stok          "16" ;
         b:urlFoto       "https://cdn.gramedia.com/uploads/items/9786025585890_be-quran-love__w600_hauto.jpg" .
 
@@ -158,7 +143,6 @@ d:16  rdf:type          d:buku ;
         b:id            "16" ;
         b:isbn          "978-602-5585-46-3" ;
         b:judul         "Betapa Allah Mencintaimu" ;
-        b:penulis       "Ratna Dewi Idrus" ;
         b:stok          "13" ;
         b:urlFoto       "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1495031375l/5975582.jpg" .
 
@@ -168,7 +152,6 @@ d:17  rdf:type          d:buku ;
         b:id            "17" ;
         b:isbn          "978-602-6359-05-6" ;
         b:judul         "Best Score Toefl" ;
-        b:penulis       "Tim Presiden Eduka" ;
         b:stok          "35" ;
         b:urlFoto       "http://genta-smart.com/gambar/buku/5e153864e2d09.png" .
 
@@ -178,7 +161,6 @@ d:18  rdf:type          d:buku ;
         b:id            "18" ;
         b:isbn          "978-623-235-026-7" ;
         b:judul         "KAMUS PRAKTIS KANJI N5-N4" ;
-        b:penulis       "IRMA NIRMALA" ;
         b:stok          "167" ;
         b:urlFoto       "https://cf.shopee.co.id/file/3b2993a53f504ae1fb7371fd66c3ed54" .
 
@@ -188,7 +170,6 @@ d:19  rdf:type          d:buku ;
         b:id            "19" ;
         b:isbn          "tidak ada d" ;
         b:judul         "BEST SCORE TES CPNS 2021" ;
-        b:penulis       "Tim Presiden Eduka" ;
         b:stok          "2" ;
         b:urlFoto       "https://id-test-11.slatic.net/p/763c8c0774f830f5f8fb43c781c71f74.jpg" .
 
@@ -198,7 +179,6 @@ d:20  rdf:type          d:buku ;
         b:id            "20" ;
         b:isbn          "978-602-038-817-5" ;
         b:judul         "MENDAKI TANGGA YANG SALAH" ;
-        b:penulis       "Eric Barker" ;
         b:stok          "11" ;
         b:urlFoto       "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551753635i/44272410._UY617_SS617_.jpg" .
 
@@ -208,7 +188,6 @@ d:21  rdf:type          d:buku ;
         b:id            "21" ;
         b:isbn          "978-602-6744-34-0" ;
         b:judul         "BEDAH KONSEP INTI MATERI UTBK SBMPTN SOSHUM 2020" ;
-        b:penulis       "Tim Tentor Inspiratif" ;
         b:stok          "11" ;
         b:urlFoto       "https://cf.shopee.co.id/file/6f63e96c7f4bd5e06f91bff3fac3ab7f" .
 
@@ -218,7 +197,6 @@ d:22  rdf:type          d:buku ;
         b:id            "22" ;
         b:isbn          "978-602-699-144-1" ;
         b:judul         "BANK SOAL FULL PEMBAHASAN KIMIA FPM SMA KLS 10-11-12" ;
-        b:penulis       "Tim Master Eduka" ;
         b:stok          "10" ;
         b:urlFoto       "https://s1.bukalapak.com/img/67111502871/large/1eb278d3ab51fbf332a58202432844c56_bank_soal_full_pembahasan_.png" .
 
@@ -227,8 +205,7 @@ d:23  rdf:type          d:buku ;
         b:harga         "64.000" ;
         b:id            "23" ;
         b:isbn          "978-602-6991-96-6" ;
-        b:judul         " HAND BOOK MATEMATIKA BIOLOGI SMA 10 11 12" ;
-        b:penulis       "Tim Maestro Eduka" ;
+        b:judul         "HAND BOOK MATEMATIKA BIOLOGI SMA 10 11 12" ;
         b:stok          "31" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/96384_f.jpg" .
 
@@ -238,7 +215,6 @@ d:24  rdf:type          d:buku ;
         b:id            "24" ;
         b:isbn          "tidak ada d" ;
         b:judul         "SIKAT AKM SD/MI 2021" ;
-        b:penulis       "Tim Master Eduka" ;
         b:stok          "10" ;
         b:urlFoto       "https://cf.shopee.co.id/file/25a9c12d1136f05e1930bb9a7f631f11" .
 
@@ -248,7 +224,6 @@ d:25  rdf:type          d:buku ;
         b:id            "25" ;
         b:isbn          "978-602-343-357-5" ;
         b:judul         "SIAP PENILAIAN ULANGAN UPDATE KELAS 1 SD/MI" ;
-        b:penulis       "Tim Master Eduka" ;
         b:stok          "16" ;
         b:urlFoto       "https://ebooks.gramedia.com/ebook-covers/61910/image_highres/BLK_SPUK1SKIU2021678658.jpg" .
 
@@ -258,7 +233,6 @@ d:26  rdf:type          d:buku ;
         b:id            "26" ;
         b:isbn          "978-602-6991-55-3" ;
         b:judul         "Master of Grammar" ;
-        b:penulis       "Kent Ang-Zie" ;
         b:stok          "191" ;
         b:urlFoto       "http://genta-smart.com/gambar/buku/5de0d38ade221.png" .
 
@@ -268,7 +242,6 @@ d:27  rdf:type          d:buku ;
         b:id            "27" ;
         b:isbn          "978-602-6991-17-1" ;
         b:judul         "Wow Japan! Kenali 7 Sisi Unik Kultur Jepang" ;
-        b:penulis       "Parastuti" ;
         b:stok          "13" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/92572_f.jpg" .
 
@@ -278,7 +251,6 @@ d:28  rdf:type          d:buku ;
         b:id            "28" ;
         b:isbn          "978-602-6991-04-1" ;
         b:judul         "40 Recipes Home Made Frozen Food" ;
-        b:penulis       "Astuti Emy" ;
         b:stok          "9" ;
         b:urlFoto       "https://lh3.googleusercontent.com/proxy/G7HaVAmVwRLhLjp8qtBdfGkVDrrT21lMI5p_ageLhvLtUIdpoKV89FHnErwBkbzkLx2iW2fwp6_eIIGyMrEwpoXvQA6WiI7Yb92xKggwyudCGBo2JQhKL0Wgd4g8MPp2" .
 
@@ -288,7 +260,6 @@ d:29  rdf:type          d:buku ;
         b:id            "29" ;
         b:isbn          "tidak ada d" ;
         b:judul         "GOOD TO GREAT" ;
-        b:penulis       "Jim Collins" ;
         b:stok          "1" ;
         b:urlFoto       "https://cdn.gramedia.com/uploads/items/img475__w600_hauto.jpg" .
 
@@ -298,7 +269,6 @@ d:30  rdf:type          d:buku ;
         b:id            "30" ;
         b:isbn          "978-979-27-6923-4" ;
         b:judul         "7 Keajaiban Rezeki" ;
-        b:penulis       "Ippho Santosa" ;
         b:stok          "9" ;
         b:urlFoto       "https://pimtar.id/filex/source/buku-7-keajaiban-rezeki-rezeki-bertambah-nasib-berubah-dalam-99-hari-dengan-otak-kanan.jpg" .
 
@@ -308,7 +278,6 @@ d:31  rdf:type          d:buku ;
         b:id            "31" ;
         b:isbn          "tidak ada d" ;
         b:judul         "Senin Bersama Rasulullah" ;
-        b:penulis       "Febriawan Jauhari" ;
         b:stok          "143" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/114336_f.jpg" .
 
@@ -318,7 +287,6 @@ d:32  rdf:type          d:buku ;
         b:id            "32" ;
         b:isbn          "978-602-61522-4-4" ;
         b:judul         "CUKUP ALLAH SAJA" ;
-        b:penulis       "HambaAllah" ;
         b:stok          "37" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/102189_f.jpg" .
 
@@ -328,7 +296,6 @@ d:33  rdf:type          d:buku ;
         b:id            "33" ;
         b:isbn          "978-602-6991-76-8" ;
         b:judul         "Kompetensi Pedagogik" ;
-        b:penulis       "Nur Irwanto dan Yusuf Suryana" ;
         b:stok          "17" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/94810_f.jpg" .
 
@@ -338,7 +305,6 @@ d:34  rdf:type          d:buku ;
         b:id            "34" ;
         b:isbn          "tidak ada d" ;
         b:judul         "JAGO CALISTUNG TK" ;
-        b:penulis       "Aidah Hanifa" ;
         b:stok          "951" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/116775_f.jpg" .
 
@@ -348,7 +314,6 @@ d:35  rdf:type          d:buku ;
         b:id            "35" ;
         b:isbn          "978-602-6359-85-8" ;
         b:judul         "Wanita wanita penghuni surga" ;
-        b:penulis       "Endah Suci Astuti" ;
         b:stok          "44" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/102597_f.jpg" .
 
@@ -358,7 +323,6 @@ d:36  rdf:type          d:buku ;
         b:id            "36" ;
         b:isbn          "978-602-2744-53-38" ;
         b:judul         "Buku Aktivitas Anak Cerdas & Kreatif Seri Binatang" ;
-        b:penulis       "Tim BIntang Kecil" ;
         b:stok          "17" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/98661_f.jpg" .
 
@@ -368,7 +332,6 @@ d:37  rdf:type          d:buku ;
         b:id            "37" ;
         b:isbn          "978-602-61522-3-7" ;
         b:judul         "Belajar Deket Sama Allah" ;
-        b:penulis       "#HambaAllah" ;
         b:stok          "37" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/102190_f.jpg" .
 
@@ -378,7 +341,6 @@ d:38  rdf:type          d:buku ;
         b:id            "38" ;
         b:isbn          "tidak ada d" ;
         b:judul         "Matematika Pahala" ;
-        b:penulis       "Asrifin An Nakhrawie" ;
         b:stok          "10" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/99539_f.jpg" .
 
@@ -388,7 +350,6 @@ d:39  rdf:type          d:buku ;
         b:id            "39" ;
         b:isbn          "978-602-6744-10-4" ;
         b:judul         "Belajar Tajwid" ;
-        b:penulis       "Abdul Lathif" ;
         b:stok          "42" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/105815_f.jpg" .
 
@@ -398,7 +359,6 @@ d:40  rdf:type          d:buku ;
         b:id            "40" ;
         b:isbn          "978-602-525-093-4" ;
         b:judul         "Aku sopan berpakaian" ;
-        b:penulis       "Nurul Ihsan" ;
         b:stok          "37" ;
         b:urlFoto       "https://www.bukukita.com/babacms/displaybuku/110240_f.jpg" .
 
@@ -408,7 +368,6 @@ d:41  rdf:type          d:buku ;
         b:id            "41" ;
         b:isbn          "tidak ada d" ;
         b:judul         "Putri Zahra" ;
-        b:penulis       "Tim Mega Jaya" ;
         b:stok          "148" ;
         b:urlFoto       "https://cf.shopee.co.id/file/167c6ad837f016cec57fcf6f22bb4e8f" .
 
@@ -418,7 +377,6 @@ d:42  rdf:type          d:buku ;
         b:id            "42" ;
         b:isbn          "tidak ada d" ;
         b:judul         "Putri Adawiyah" ;
-        b:penulis       "Tim Mega Jaya" ;
         b:stok          "648" ;
         b:urlFoto       "https://cf.shopee.co.id/file/fd0c0da8b16ef482200c4d7c94eb4c29" .
 
@@ -428,7 +386,6 @@ d:43  rdf:type          d:buku ;
         b:id            "43" ;
         b:isbn          "tidak ada d" ;
         b:judul         "Putri Qonita" ;
-        b:penulis       "Tim Mega Jaya" ;
         b:stok          "68" ;
         b:urlFoto       "https://cf.shopee.co.id/file/15fc91874f47cd67c14fcecd2f97fd2d" .
 
@@ -438,7 +395,6 @@ d:44  rdf:type          d:buku ;
         b:id            "44" ;
         b:isbn          "tidak ada d" ;
         b:judul         "Menyayangi Tumbuhan dan Hewan SD KLS III" ;
-        b:penulis       "Yanti Kurnianingsih" ;
         b:stok          "12" ;
         b:urlFoto       "https://a.cdn-myedisi.com/book/cover/bse-a_5d7f5c19216bd003285010.jpg" .
 
@@ -448,7 +404,6 @@ d:45  rdf:type          d:buku ;
         b:id            "45" ;
         b:isbn          "978-602-6359-88-9" ;
         b:judul         "Taaruf, Khitbah, Nikah + Malam Pertama" ;
-        b:penulis       "Agus Ariwibowo" ;
         b:stok          "3" ;
         b:urlFoto       "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551678889l/44224238.jpg" .
 
@@ -458,7 +413,6 @@ d:46  rdf:type          d:buku ;
         b:id            "46" ;
         b:isbn          "978-602-6359-94-0" ;
         b:judul         "Dear Diary, Jangan BETE" ;
-        b:penulis       "Vety Fakhrudin" ;
         b:stok          "19" ;
         b:urlFoto       "https://cdn.gramedia.com/uploads/items/9786026359940_9786026359940__w600_hauto.jpg" .
 
@@ -468,7 +422,6 @@ d:47  rdf:type          d:buku ;
         b:id            "47" ;
         b:isbn          "978-602-6744-56-2" ;
         b:judul         "Menjemput Jodoh Impian" ;
-        b:penulis       "Gadisturatea" ;
         b:stok          "182" ;
         b:urlFoto       "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/1/20/ad483ade-35f4-483b-bac4-6aa5a7a12aaa.jpg" .
 
@@ -478,7 +431,6 @@ d:48  rdf:type          d:buku ;
         b:id            "48" ;
         b:isbn          "tidak ada d" ;
         b:judul         "Menikmati Kepergianmu" ;
-        b:penulis       "Alfi Alghazi" ;
         b:stok          "1" ;
         b:urlFoto       "https://id-test-11.slatic.net/p/3648c5e58a3522e0c825283afedfe021.jpg_720x720q80.jpg_.webp" .
 
@@ -488,7 +440,6 @@ d:49  rdf:type          d:buku ;
         b:id            "49" ;
         b:isbn          "978-602-5250-96-5" ;
         b:judul         "PAKET KOMPLIT 7 IN 1" ;
-        b:penulis       "HADIWIJAYA DAN DIAN SARI PANGESTUTI" ;
         b:stok          "545" ;
         b:urlFoto       "https://cf.shopee.co.id/file/f617581aa1e069fd7960220d9076cd1b" .
 
@@ -498,7 +449,6 @@ d:50  rdf:type          d:buku ;
         b:id            "50" ;
         b:isbn          "978-602-5585-95-1" ;
         b:judul         "STRATEGI & BANK SOAL HOTS MATEMATIKA SMA/MA 10-11-12" ;
-        b:penulis       "Tim Maestro Eduka" ;
         b:stok          "65" ;
         b:urlFoto       "https://cf.shopee.co.id/file/6cfcca3abbb1edd2b051bf0b0884e67c" .
 
@@ -696,3 +646,96 @@ d:47 b:hasTahunTerbit d:T7 .
 d:48 b:hasTahunTerbit d:T8 .
 d:49 b:hasTahunTerbit d:T5 .
 d:50 b:hasTahunTerbit d:T5 .
+
+#Penulis
+d:PE1 b:penulis "Yuliana Yusuf".
+d:PE2 b:penulis "Aida Hanifah".
+d:PE3 b:penulis "Muhammad Ihsan".
+d:PE4 b:penulis "Lutfiya Cahyani".
+d:PE5 b:penulis "Enha Punjabi".
+d:PE6 b:penulis "dr. Meta Hanindita, Sp.A".
+d:PE7 b:penulis "Ayu Bulan Febry K D, SKM, MM; Yuni Hermawaty, M.Psi, Psikolog; dr. Zulfito Marendra".
+d:PE8 b:penulis "Emy & Umar".
+d:PE9 b:penulis "Astuti Emy".
+d:PE10 b:penulis "Joko Waluyo, SPd.".
+d:PE11 b:penulis "Vivi Amalia Anggraeni".
+d:PE12 b:penulis "Muhammad Syafii Masykur".
+d:PE13 b:penulis "Ririn Astutiningrum, Ratnani Latifah".
+d:PE14 b:penulis "Ratna Dewi Idrus".
+d:PE15 b:penulis "Tim Presiden Eduka".
+d:PE16 b:penulis "Irma Nirmala".
+d:PE17 b:penulis "Eric Barker".
+d:PE18 b:penulis "Tim Tentor Inspiratif".
+d:PE19 b:penulis "Tim Master Eduka".
+d:PE20 b:penulis "Tim Maestro Eduka".
+d:PE21 b:penulis "Kent Ang-Zie".
+d:PE22 b:penulis "Parastuti".
+d:PE23 b:penulis "Jim Collins".
+d:PE24 b:penulis "Ippho Santisa".
+d:PE25 b:penulis "Febriawan Jauhari".
+d:PE26 b:penulis "Hamba Allah".
+d:PE27 b:penulis "Nur Irwanto dan Yusuf Suryana".
+d:PE28 b:penulis "Endah Suci Astuti".
+d:PE29 b:penulis "Tim Bintang Kecil".
+d:PE30 b:penulis "Asrifin An Nakhrawie".
+d:PE31 b:penulis "Abdul Lathif".
+d:PE32 b:penulis "Nurul Ihsan".
+d:PE33 b:penulis "Tim Mega Jaya".
+d:PE34 b:penulis "Yanti Kurnianingsih".
+d:PE35 b:penulis "Agus Ariwibowo".
+d:PE36 b:penulis "Vety Fakhrudin".
+d:PE37 b:penulis "Gadisturatea".
+d:PE38 b:penulis "Alfi Alghazali".
+d:PE39 b:penulis "Hadiwijaya dan Dian Sari Pangestuti".
+
+#Relasi Penulis
+d:1 b:hasPenulis d:PE1 .
+d:2 b:hasPenulis d:PE2 .
+d:3 b:hasPenulis d:PE3 .
+d:4 b:hasPenulis d:PE4 .
+d:5 b:hasPenulis d:PE2 .
+d:6 b:hasPenulis d:PE2 .
+d:7 b:hasPenulis d:PE5 .
+d:8 b:hasPenulis d:PE6 .
+d:9 b:hasPenulis d:PE7 .
+d:10 b:hasPenulis d:PE8 .
+d:11 b:hasPenulis d:PE9 .
+d:12 b:hasPenulis d:PE10 .
+d:13 b:hasPenulis d:PE11 .
+d:14 b:hasPenulis d:PE12 .
+d:15 b:hasPenulis d:PE13 .
+d:16 b:hasPenulis d:PE14 .
+d:17 b:hasPenulis d:PE15 .
+d:18 b:hasPenulis d:PE16 .
+d:19 b:hasPenulis d:PE15 .
+d:20 b:hasPenulis d:PE17 .
+d:21 b:hasPenulis d:PE18 .
+d:22 b:hasPenulis d:PE19 .
+d:23 b:hasPenulis d:PE20 .
+d:24 b:hasPenulis d:PE19 .
+d:25 b:hasPenulis d:PE19 .
+d:26 b:hasPenulis d:PE21 .
+d:27 b:hasPenulis d:PE22 .
+d:28 b:hasPenulis d:PE9 .
+d:29 b:hasPenulis d:PE23 .
+d:30 b:hasPenulis d:PE24 .
+d:31 b:hasPenulis d:PE25 .
+d:32 b:hasPenulis d:PE26 .
+d:33 b:hasPenulis d:PE27 .
+d:34 b:hasPenulis d:PE2 .
+d:35 b:hasPenulis d:PE28 .
+d:36 b:hasPenulis d:PE29 .
+d:37 b:hasPenulis d:PE26 .
+d:38 b:hasPenulis d:PE30 .
+d:39 b:hasPenulis d:PE31 .
+d:40 b:hasPenulis d:PE32 .
+d:41 b:hasPenulis d:PE33 .
+d:42 b:hasPenulis d:PE33 .
+d:43 b:hasPenulis d:PE33 .
+d:44 b:hasPenulis d:PE34 .
+d:45 b:hasPenulis d:PE35 .
+d:46 b:hasPenulis d:PE36 .
+d:47 b:hasPenulis d:PE37 .
+d:48 b:hasPenulis d:PE38 .
+d:49 b:hasPenulis d:PE39 .
+d:50 b:hasPenulis d:PE20 .

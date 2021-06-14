@@ -15,37 +15,37 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg">
-  <div class="container-fluid">
-   <a class="navbar-brand" href="home.php">
-    <img src="images/temubuku logo.png">
-   </a>
-   <button class="navbar-dark navbar-toggler" type="button" data-bs-toggle="collapse"
-    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-    aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-   </button>
-   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-     <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#"></a>
-     </li>
-    </ul>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.php">
+        <img src="images/temubuku logo.png">
+      </a>
+      <button class="navbar-dark navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"></a>
+        </li>
+        </ul>
 
-    <form class="d-flex">
-     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      <li class="nav-item">
-       <a class="nav-link active" aria-current="page" href="index.php">Beranda</a>
-    </li>
-    <li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="advance.php">AdvanceSearch</a>
-			</li>
-      <li class="nav-item">
-       <a class="nav-link" href="about.php">About</a>
-      </li>
-     </ul>
-    </form>
-   </div>
-  </div>
+        <form class="d-flex">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.php">Beranda</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="advance.php">AdvanceSearch</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="about.php">About</a>
+          </li>
+        </ul>
+        </form>
+      </div>
+    </div>
  </nav>
   <div class="search">
   <form action="search.php" method="POST">
@@ -77,7 +77,8 @@
           if(isset($_POST['kunci']))
               $kunci=$_POST['kunci'];
               if(!$kunci){
-                echo"<br><h3 class='text-center'>Data Kosong!</h3>";
+                echo"
+                <br><p class='text-center'>Anda Belum Memasukkan Keyword yang Ingin Anda Cari!</p><br><br>";
               }
         
 
@@ -88,25 +89,67 @@
        $endpoint = $fuseki_server . "/" . $fuseki_sparql_db . "/query"; 
        $sc = new SparqlClient();
        $sc->setEndpointRead($endpoint);
+       $key = explode(" ", $kunci);
+       foreach($key as $kata){
        $q = "PREFIX d:<http://example.com/data#>
-              PREFIX b:<http://example.com/buku#>
-              PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-              SELECT ?id ?judul ?penulis ?penerbit ?kategori ?urlFoto
-              WHERE{
-                ?d b:id ?id;
-                   b:judul ?judul;
-                   b:penulis ?penulis;
-                   b:hasPenerbit ?namapenerbit;
-                   b:hasKategori ?namakategori;
-                   b:hasTahunTerbit ?namatahun_terbit;
-                   b:urlFoto ?urlFoto.
-
-                   ?namapenerbit b:Penerbit ?penerbit.
-                   ?namakategori b:kategori ?kategori. 
-                   ?namatahun_terbit b:tahunterbit ?tahun_terbit.
-                  FILTER (regex(?judul, '$kunci', 'i') || regex(?kategori, '$kunci', 'i') || regex(?penulis, '$kunci', 'i') || regex(?penerbit, '$kunci', 'i'))
-                }
+       PREFIX b:<http://example.com/buku#>
+       PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+       SELECT ?id ?judul ?penulis ?penerbit ?kategori ?urlFoto
+       WHERE{ {
+         ?d b:id ?id
+            OPTIONAL {?d b:judul ?judul .}
+            OPTIONAL {?d b:hasPenulis ?namapenulis . }
+            OPTIONAL {?d b:hasPenerbit ?namapenerbit. } 
+            OPTIONAL {?d b:hasKategori ?namakategori. } 
+            OPTIONAL {?d b:hasTahunTerbit ?namatahun_terbit. } 
+            OPTIONAL {?d b:urlFoto ?urlFoto. }
+         ?namapenulis b:penulis ?penulis.
+         ?namapenerbit b:Penerbit ?penerbit.
+         ?namakategori b:kategori ?kategori. 
+         ?namatahun_terbit b:tahunterbit ?tahun_terbit.
+           FILTER regex(?judul, '$kata', 'i')}
+           UNION {
+            ?d b:id ?id
+              OPTIONAL {?d b:judul ?judul .}
+              OPTIONAL {?d b:hasPenulis ?namapenulis . }
+              OPTIONAL {?d b:hasPenerbit ?namapenerbit. } 
+              OPTIONAL {?d b:hasKategori ?namakategori. } 
+              OPTIONAL {?d b:hasTahunTerbit ?namatahun_terbit. } 
+              OPTIONAL {?d b:urlFoto ?urlFoto. }
+          ?namapenulis b:penulis ?penulis.
+          ?namapenerbit b:Penerbit ?penerbit.
+          ?namakategori b:kategori ?kategori. 
+          ?namatahun_terbit b:tahunterbit ?tahun_terbit.
+           FILTER regex(?kategori, '$kata', 'i')} 
+           UNION {
+            ?d b:id ?id
+              OPTIONAL {?d b:judul ?judul .}
+              OPTIONAL {?d b:hasPenulis ?namapenulis . }
+              OPTIONAL {?d b:hasPenerbit ?namapenerbit. } 
+              OPTIONAL {?d b:hasKategori ?namakategori. } 
+              OPTIONAL {?d b:hasTahunTerbit ?namatahun_terbit. } 
+              OPTIONAL {?d b:urlFoto ?urlFoto. }
+          ?namapenulis b:penulis ?penulis.
+          ?namapenerbit b:Penerbit ?penerbit.
+          ?namakategori b:kategori ?kategori. 
+          ?namatahun_terbit b:tahunterbit ?tahun_terbit.
+           FILTER regex(?penulis, '$kata', 'i')}
+           UNION {
+            ?d b:id ?id
+              OPTIONAL {?d b:judul ?judul .}
+              OPTIONAL {?d b:hasPenulis ?namapenulis . }
+              OPTIONAL {?d b:hasPenerbit ?namapenerbit. } 
+              OPTIONAL {?d b:hasKategori ?namakategori. } 
+              OPTIONAL {?d b:hasTahunTerbit ?namatahun_terbit. } 
+              OPTIONAL {?d b:urlFoto ?urlFoto. }
+          ?namapenulis b:penulis ?penulis.
+          ?namapenerbit b:Penerbit ?penerbit.
+          ?namakategori b:kategori ?kategori. 
+          ?namatahun_terbit b:tahunterbit ?tahun_terbit.
+           FILTER regex(?penerbit, '$kata', 'i')}
+         }
                 ";
+              }
               $rows = $sc->query($q, 'rows');
               $err = $sc->getErrors();
               if ($err) {

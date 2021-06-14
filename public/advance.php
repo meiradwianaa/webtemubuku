@@ -138,14 +138,15 @@
                     WHERE{
                         ?d b:id ?id;
                         b:judul ?judul;
-                        b:penulis ?penulis;
-                        b:hasPenerbit ?namapenerbit;
                         b:hasKategori ?namakategori;
+                        b:hasPenulis ?namapenulis;
+                        b:hasPenerbit ?namapenerbit;
                         b:hasTahunTerbit ?namatahun_terbit;
                         b:urlFoto ?urlFoto.
-
+                      
+                        ?namakategori b:kategori ?kategori.
+                        ?namapenulis b:penulis ?penulis. 
                         ?namapenerbit b:Penerbit ?penerbit.
-                        ?namakategori b:kategori ?kategori. 
                         ?namatahun_terbit b:tahunterbit ?tahun_terbit.
 
                         FILTER contains(lcase(str(?judul)), lcase(str('$judul'))) 

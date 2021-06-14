@@ -80,15 +80,16 @@
               WHERE{
                   ?d b:id ?id;
                      b:judul ?judul;
-                     b:penulis ?penulis;
+                     b:hasPenulis ?namapenulis;
                      b:hasPenerbit ?namapenerbit;
                      b:hasKategori ?namakategori;
                      b:hasTahunTerbit ?namatahun_terbit;
         				     b:urlFoto ?urlFoto.
+                  ?namapenulis b:penulis ?penulis.
                   ?namapenerbit b:Penerbit ?penerbit. 
                   ?namakategori b:kategori ?kategori.  
                   ?namatahun_terbit b:tahunterbit ?tahun_terbit.
-                }
+                } LIMIT 20
               ";
 							$rows = $sc->query($q, 'rows');
 							$err = $sc->getErrors();
