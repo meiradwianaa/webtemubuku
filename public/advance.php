@@ -126,7 +126,7 @@
               echo"<p class='text-center'>Anda Belum Memasukkan Keyword yang Ingin Anda Cari!</p><br><br>";
           }
         else{
-            $fuseki_server = "http://localhost:3030"; // fuseki server address 
+            $fuseki_server = "http://31.220.62.156:3030"; // fuseki server address 
             $fuseki_sparql_db = "temubuku"; // fuseki Sparql database 
             $endpoint = $fuseki_server . "/" . $fuseki_sparql_db . "/query"; 
             $sc = new SparqlClient();
